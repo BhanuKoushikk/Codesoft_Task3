@@ -1,0 +1,41 @@
+.calu{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 650px;
+    padding-top: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.display{
+    background-color: azure;
+    width: 50px;
+    height:100px;
+    margin:25px;
+    margin-bottom: 75px;
+}
+.box{
+    background-color:lightblue;
+    width: 100px;
+    height:75px;
+    margin: 11px;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 7px;
+}
+#One,#Two,#Three,#Mul,#Four,#Five,#Six,#Dis,#Seven,#Eight,#Nine,#Plus,#Plus,#Clr,#Zero,#Ac,#Equal{
+    text-align: center;
+    font-size: 4em;
+    color: aliceblue;
+}
+.box:hover{
+background-color: rgb(192, 234, 248);
+}
+input{
+background-color: azure;
+    width: 450px;
+    height:130px;
+}
+#display{
+font-size:5em;
+}
